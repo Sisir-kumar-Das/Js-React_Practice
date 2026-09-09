@@ -1,22 +1,22 @@
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 
 function InputFocus() {
-
   const inputRef = useRef(null);
 
   const handleClick = () => {
     if (inputRef.current) inputRef.current.focus();
-  }
-  
+  };
+  //
+
   return (
-    <div style={{ padding: '20px', textAlign: 'center' }}>
+    <div style={{ padding: "20px", textAlign: "center" }}>
       <input
-      ref={inputRef}
+        ref={inputRef}
         type="text"
         placeholder="Type here"
-        style={{ padding: '8px', fontSize: '16px', marginRight: '10px' }}
+        style={{ padding: "8px", fontSize: "16px", marginRight: "10px" }}
       />
-      <button style={{ padding: '8px 12px' }} onClick={()=>handleClick()}>
+      <button style={{ padding: "8px 12px" }} onClick={() => handleClick()}>
         Focus Input
       </button>
     </div>
