@@ -41,6 +41,6 @@ function AcronymGenerator() {
       </div>
     </div>
   );
-}
+} //
 
 export default AcronymGenerator;
