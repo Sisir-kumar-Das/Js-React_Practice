@@ -11,6 +11,5 @@ function capitalizeWords(sentence) {
 
 }
 
-//For the purpose of user debugging.
 capitalizeWords("hello world");
 module.exports = capitalizeWords
