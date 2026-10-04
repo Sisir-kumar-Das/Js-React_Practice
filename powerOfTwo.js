@@ -1,7 +1,8 @@
 function isPowerOfTwo(n) {
   if (!Number.isInteger(n) || n <= 0) return false;
 
-  let low = 0, high = n;
+  let low = 0,
+    high = n;
 
   while (low <= high) {
     const mid = Math.floor((low + high) / 2);
@@ -14,5 +15,6 @@ function isPowerOfTwo(n) {
 
   return false;
 }
+//
 
 module.exports = { isPowerOfTwo };
