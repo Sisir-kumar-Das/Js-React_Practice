@@ -5,7 +5,6 @@ function validatePalindrome(str) {
   return cleaned === cleaned.split("").reverse().join("");
 }
 
-//For the purpose of user debugging.
 validatePalindrome("race a car");
 
 module.exports = validatePalindrome;
